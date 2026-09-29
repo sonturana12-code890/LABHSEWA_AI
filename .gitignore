@@ -1,0 +1,19 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+___pycache___/
+*.py[cod]
+*.sqlite
+*.sqlite3
+*.db
+
+# Build output and dependencies
+.dist/
+node_modules/
+
+# Local secrets and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
